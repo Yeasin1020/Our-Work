@@ -1,9 +1,10 @@
 body{
-
+    margin: 0%;
 }
 .first-header{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    padding: 10px;
 }
 .first-header h2{
     color: #0083AD;
@@ -34,4 +35,31 @@ body{
 .section2-2div:hover{
     border:2px solid #0083AD;
     box-shadow: 5px 5px 5px rgb(199, 169, 17);
+}
+.img{
+    width: 70%;
+    height: 800px;
+    padding-left: 150px;
+    box-shadow: 10px 10px 10px;
+}
+.img:hover{
+    box-shadow: 10px 10px 10px orangered;
+}
+.section3{
+    background-color: #0083AD;
+    height: 400px;
+}
+.section3 h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.from{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.from div{
+    padding-left: 25px;
 }
