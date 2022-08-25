@@ -1,0 +1,37 @@
+body{
+
+}
+.first-header{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.first-header h2{
+    color: #0083AD;
+}
+.section2{
+    display: flex;
+}
+.section2-1div{
+    width: 50%;
+    margin: 30px;
+   border: 2px solid greenyellow;
+   padding: 10px;
+   background-color: aqua;
+   box-shadow: 5px 5px 5px black;
+}
+.section2-2div{
+    width: 50%;
+    margin: 30px;
+    border: 2px solid greenyellow;
+    padding: 10px;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px black;
+}
+.section2-1div:hover{
+    border:2px solid #0083AD;
+    box-shadow: 5px 5px 5px rgb(199, 169, 17);
+}
+.section2-2div:hover{
+    border:2px solid #0083AD;
+    box-shadow: 5px 5px 5px rgb(199, 169, 17);
+}
